@@ -24,7 +24,7 @@ if (!isset($_SESSION['username'])) {
                 <h1><?php echo "<h1>Bienvenido " . $_SESSION['username'] ." </h1>"; ?></h1>
                 <span class="square"></span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quia mollitia ex, laboriosam minus optio aut beatae neque est harum!</p>
-                <a href="../inicio"><button class="common-btn">Cerrar Sesion</button></a>
+                   <a href="../logout.php"><button class="common-btn">Cerrar Sesion</button></a>
                     <div class="line">
                         <span class="line-1"></span><br>
                         <span class="line-2"></span><br>
